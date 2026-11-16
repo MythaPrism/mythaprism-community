@@ -1,0 +1,29 @@
+name: Bug report
+description: Something in the tool, the app, the website or the plug-in is not working
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes: { label: Version, description: "Account menu, the version line at the bottom", placeholder: "the version shown in the account menu" }
+    validations: { required: true }
+  - type: dropdown
+    id: where
+    attributes: { label: Where, options: [Web tool, Android app, iPhone or iPad app, Website or account, Plug-in and Showroom for Blender, MythaBraille] }
+    validations: { required: true }
+  - type: input
+    id: device
+    attributes: { label: Device and browser, placeholder: "Windows 11 and Chrome, or a Pixel 8 with Android 15" }
+    validations: { required: true }
+  - type: input
+    id: mode
+    attributes: { label: Print mode and color matcher, placeholder: "Relief and Prime" }
+  - type: textarea
+    id: steps
+    attributes: { label: What happened, description: "What you did, what you expected, and what happened instead" }
+    validations: { required: true }
+  - type: textarea
+    id: shots
+    attributes: { label: Screenshots, description: "Anything you add here is public. Leave out pictures you want to keep private, and pictures of other people." }
+  - type: checkboxes
+    id: ok
+    attributes: { label: Checks, options: [ { label: "I searched the open issues first", required: true }, { label: "This report has no account, payment or personal details", required: true } ] }
