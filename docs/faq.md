@@ -1,28 +1,33 @@
-# FAQ
+# Questions people ask
 
-**Are my photos uploaded?**
-No. Your photos are edited and color matched on your own device. They, their file names and their metadata are not
-uploaded. Signing in, your plan and your downloads go through your MythaPrism account, never your pictures.
+**Is MythaPrism a 3D modeling tool or a photo editor?**
+Both. It is a full-color 3D print studio with a photo editor built in. You edit the photo, then turn it into a print that is ready to slice.
+
+**Do I need to know 3D modeling?**
+No. You drop in a photo and press Color match, and it picks the filaments and the layer plan for you.
+
+**What do I get out of it?**
+A print-ready .3mf (plus an STL and a swap guide). Bambu Studio, OrcaSlicer and PrusaSlicer open it as a ready project with the color changes built in, and any other 3MF slicer opens it as geometry.
+
+**Where are my photos processed?**
+On your own device. The picture is never uploaded. See [privacy](privacy.md).
+
+**Does it cost anything to try?**
+No. There is a free plan with no time limit, and you can use it without signing in. You need a free account to download your print files, and the free account includes 10 print downloads each calendar month.
 
 **Does it work offline?**
-Yes. Once the tool has loaded, editing, color matching, the 3D preview and export keep working without a connection while
-the page stays open.
+Yes, once the tool is open. Opening a paid edition on the website needs a connection, because it checks your sign-in and plan.
 
-**What does each plan include?**
-The plans and what each one includes are listed on [mythaprism.com](https://mythaprism.com). The free plan needs no card.
+**How do I sign in?**
+With a one-time e-mail code or link, a password, or Google or Apple sign-in. Two-step sign-in with an authenticator app is there if you want one more lock.
 
-**Which color matcher should I use?**
-Start with the one the tool picks for you. For a printer with one nozzle and no multi-material system, use a One color per
-layer matcher. Those never put two colors in the same layer.
+**Is the preview exactly what will print?**
+It is a close estimate. Your printer, your spools and the light in the room change the real print a little. A calibration on Plus or Pro brings the preview closer to your own spools.
 
-**The print looks different from the preview.**
-The preview is a close estimate, not a guarantee. Real filaments can be more or less see-through than their numbers
-suggest. Print the **calibration plate** for your own filaments (Tool: filament library · App: Colors sheet), photograph
-it and read the photo back in the tool, so the preview uses what your filaments actually printed.
+**Where are the phone apps?**
+The iPhone, iPad and Android apps are coming soon.
 
-**Can I take the photo in the app?**
-Yes. The app opens with a **Take a photo** button, and the shot lands in the workspace. Photos are not uploaded.
+**Where do I get help?**
+Search the [issues](../../../issues) first, then open a new one with a form. Questions about your account, a payment or a refund go to support@mythaprism.com.
 
-**How do I report a bug?**
-In the tool, open the account menu and choose **Support → Report a bug**, or use the bug template in this repository.
-Include the build number, your device or browser, the print mode and a screenshot.
+More answers are in the [FAQ on the website](https://mythaprism.com/#faq).

@@ -1,14 +1,9 @@
-# Contributing
+# Taking part
 
-This repository is documentation and support, **it does not contain the product's source code and does not accept code
-contributions**. What is welcome:
+This repository holds no source code and does not take code contributions. Here is what helps:
 
-- **Bug reports** and **feature requests** through the issue templates.
-- **Print results** (the "Share a print result" template): a photo of the print next to the preview, with the engine,
-  mode, layer height and filaments. These are the most useful thing you can send: real prints are how the engines are
-  tuned.
-- **Documentation fixes** (typos, unclear steps, missing printer notes) as a pull request against `docs/`.
-- **Compatibility notes** for printers, nozzles and filaments you have tested.
+- **Bug reports** and **ideas**, with the forms on the [new issue](../../issues/new/choose) page.
+- **Prints you made**, with the "Share a print" form: a photo of the print next to the preview, and the print mode, color matcher, layer height and filaments. Real prints are the best way for us to see how MythaPrism does on real printers.
+- **Printer and filament notes** for machines and spools you have tested.
 
-Please keep issues to one topic each, don't post account or payment details, and be kind. This is a one-person company
-and every report gets read.
+Please keep each issue to one topic, leave account and payment details out, and be kind. Every report gets read.

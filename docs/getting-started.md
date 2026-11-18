@@ -6,9 +6,11 @@ You need a photo, a 3D printer and a slicer such as Bambu Studio, OrcaSlicer or 
 
 <sub>Real screen recording of the tool, then a Blender render of the same export on the Showroom stage.</sub>
 
+Would you rather watch? The [first print tutorial](../demos/videos/01_your_first_print.mp4) shows every step below in under a minute.
+
 ## 1. Open the tool
 
-Open the free tool at [tool.mythaprism.com](https://tool.mythaprism.com). It runs in your browser, and you can use it without signing in. The first time it opens, it asks you to read and accept the Terms, and it can show you a short walkthrough. You can open the walkthroughs again from the person icon at the top right.
+Open the free tool at [mythaprism.com/free](https://mythaprism.com/free). It runs in your browser, and you can use it without signing in. The first time it opens, it asks you to read and accept the Terms, and it can show you a short walkthrough. You can open the walkthroughs again from the person icon at the top right.
 
 ## 2. Tell it your printer
 

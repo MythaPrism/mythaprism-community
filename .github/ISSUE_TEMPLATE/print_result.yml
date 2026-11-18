@@ -1,27 +1,17 @@
-name: Share a print result
-description: A photo of a real print next to its preview — the most useful thing you can send
-labels: [print-result]
+name: Share a print
+description: Show us a print you made with MythaPrism
+labels: [print]
 body:
-  - type: input
-    id: build
-    attributes: { label: Build number }
+  - type: textarea
+    id: photos
+    attributes: { label: Photos, description: "A photo of the print, and the preview next to it if you can. This is public, so only share pictures you are happy to show." }
     validations: { required: true }
   - type: input
     id: setup
-    attributes: { label: Printer · nozzle · layer height, placeholder: "Bambu Lab X1C · 0.4 · 0.08 mm" }
-    validations: { required: true }
+    attributes: { label: How you made it, placeholder: "Relief, Prime, 0.08 mm layers, Bambu Lab A1 with AMS lite" }
   - type: input
-    id: modeengine
-    attributes: { label: Mode & engine, placeholder: "Relief · V1.7 auto" }
-    validations: { required: true }
-  - type: textarea
     id: filaments
-    attributes: { label: Filaments used (brand + color) }
-    validations: { required: true }
-  - type: textarea
-    id: photos
-    attributes: { label: Photos, description: "The print (soft, even light) and the tool's preview. Your own photos only, or with the subject's consent." }
-    validations: { required: true }
+    attributes: { label: Filaments, placeholder: "Bambu Lab PLA Basic Black, Jade White, Cyan" }
   - type: textarea
     id: notes
-    attributes: { label: What matched, what didn't }
+    attributes: { label: Notes, description: "Anything that surprised you, good or bad" }

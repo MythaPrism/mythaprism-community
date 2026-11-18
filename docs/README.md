@@ -11,6 +11,6 @@ Short guides for the free tool and the paid plans. The full manual is in [manual
 7. [Your photos and your privacy](privacy.md)
 8. [Questions people ask](faq.md)
 
-Short clips of each step are in [demos/](../demos), and ready-to-print sample files are in [prints/](../prints).
+Video tutorials and a real screen recording of every feature are in [demos/](../demos), and ready-to-print sample files are in [prints/](../prints).
 
 What each plan includes is on the [prices page](https://mythaprism.com/#pricing). Prices and terms are always shown before you pay.
