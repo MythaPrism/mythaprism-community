@@ -1,13 +1,9 @@
-# License
+# Licence
 
-**The MythaPrism software is not in this repository.** Nothing here gives anyone the right to copy, share, sell, change or rebuild MythaPrism. The software is copyright 2026 MythaPrism LLC, all rights reserved, and you use it under its [End User License Agreement](https://mythaprism.com/eula.html) and [Terms of Service](https://mythaprism.com/terms.html).
+- **Documentation in this repository** (README, docs/, CHANGELOG, templates) is © 2026 MythaPrism LLC and licensed
+  under **CC BY-ND 4.0**. You may share it with attribution. Please don't publish altered versions.
+- **Sample models in `models/`** are provided for **personal, non-commercial printing** unless a model's own note says
+  otherwise. Do not resell prints or files made from them.
+- **The MythaPrism software** is not in this repository and is not covered by these terms. It is licensed under its
+  [EULA](https://mythaprism.com/eula.html). MYTHAPRISM™ is a trademark of MythaPrism LLC.
 
-**The text, pictures and clips in this repository** (this README, the guides in `docs/`, the clips in `demos/`, the manual in `manual/`, the forms and the pictures in `assets/`) are copyright 2026 MythaPrism LLC, all rights reserved. You may link to them, and you may quote a short part with credit to MythaPrism. Please do not copy them into another project or publish changed versions.
-
-**The sample print files in `prints/`** were made in MythaPrism. You may download them and print them for your own personal, non-commercial use. Please do not sell the files or the prints, and do not share changed versions. Selling prints you make yourself in MythaPrism is covered by the commercial license that comes with the Creator and Studio Bundles.
-
-**What you post** in an issue or a comment stays yours. Posts are public, so please keep personal details and private pictures out of them. Section 5a of the [Terms of Service](https://mythaprism.com/terms.html) says how we may show, quote and use what is posted here, and the [Privacy Policy](https://mythaprism.com/privacy.html) covers reports sent with Report a bug.
-
-**Pictures from NASA** (Earth, Earthrise, the Sun, the Moon and the planets) are in the public domain. NASA does not endorse MythaPrism. The flower painting is used under license from its artist.
-
-MYTHAPRISM™ is a trademark of MythaPrism LLC. Patent pending.

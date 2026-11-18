@@ -1,29 +1,29 @@
 name: Bug report
-description: Something in the tool, the app, the website or the plug-in is not working
+description: Something in the tool, app or website isn't working
 labels: [bug]
 body:
   - type: input
-    id: version
-    attributes: { label: Version, description: "Account menu, the version line at the bottom", placeholder: "the version shown in the account menu" }
+    id: build
+    attributes: { label: Build number, description: "Account menu → version (e.g. 2026-10-27.609)", placeholder: "2026-10-27.609" }
     validations: { required: true }
   - type: dropdown
     id: where
-    attributes: { label: Where, options: [Web tool, Android app, iPhone or iPad app, Website or account, Plug-in and Showroom for Blender, MythaBraille] }
+    attributes: { label: Where, options: [Web tool, Android app, iOS app, Website / account, Plug-in and Showroom (Blender), MythaBraille] }
     validations: { required: true }
   - type: input
     id: device
-    attributes: { label: Device and browser, placeholder: "Windows 11 and Chrome, or a Pixel 8 with Android 15" }
+    attributes: { label: Device & browser / OS, placeholder: "Windows 11 · Chrome 130 / Pixel 8 · Android 15 / iPhone 15 · iOS 19" }
     validations: { required: true }
   - type: input
-    id: mode
-    attributes: { label: Print mode and color matcher, placeholder: "Relief and Prime" }
+    id: modeengine
+    attributes: { label: Print mode & engine, placeholder: "Relief · Prime" }
   - type: textarea
     id: steps
-    attributes: { label: What happened, description: "What you did, what you expected, and what happened instead" }
+    attributes: { label: Steps to reproduce, description: "What you did, what you expected, what happened" }
     validations: { required: true }
   - type: textarea
     id: shots
-    attributes: { label: Screenshots, description: "Anything you add here is public. Leave out pictures you want to keep private, and pictures of other people." }
+    attributes: { label: Screenshots / files, description: "Drag screenshots here. Please do NOT attach photos of other people without their consent." }
   - type: checkboxes
     id: ok
-    attributes: { label: Checks, options: [ { label: "I searched the open issues first", required: true }, { label: "This report has no account, payment or personal details", required: true } ] }
+    attributes: { label: Checks, options: [ { label: "I searched existing issues", required: true }, { label: "This report contains no account, payment or personal data", required: true } ] }

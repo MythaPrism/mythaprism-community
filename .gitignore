@@ -1,2 +1,20 @@
 .DS_Store
 Thumbs.db
+
+# --- b582: never commit backups, signing files or plate photos ---
+*.pre[0-9]*
+*.pre_*
+*.bak
+*.orig
+*.jks
+*.keystore
+*.p12
+*.p8
+*.pem
+keystore.properties
+.env
+.env.*
+.dev.vars
+calibration/*.jpg
+calibration/*.jpeg
+calibration/*.heic

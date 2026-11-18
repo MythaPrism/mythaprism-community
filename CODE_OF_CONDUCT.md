@@ -1,3 +1,6 @@
 # Code of conduct
 
-Be kind and respectful, and assume good faith. Keep it about MythaPrism and 3D printing. No harassment, no insults, and no posting other people's private information or pictures without their permission. Posts that break these rules are closed, and people who keep breaking them are blocked. Questions: support@mythaprism.com.
+Be respectful. Assume good faith. Keep it about the software. No harassment, no personal attacks, no posting of other
+people's private information or photos without their consent. Reports that break these rules will be closed, repeat
+offenders will be blocked. Questions: hello@mythaprism.com.
+
